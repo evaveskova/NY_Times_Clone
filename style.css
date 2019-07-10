@@ -40,3 +40,44 @@
 a {
     text-decoration: none;
 }
+
+.article-grid {
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 2.25rem;
+  margin-top: 100px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.article-heading {
+  grid-column: 2 / 2;
+}
+
+.main-img {
+
+  grid-column: 2;
+
+}
+
+.main-img-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  min-height: 80%;
+}
