@@ -222,3 +222,58 @@ h4 > a {
   grid-template-columns: 1fr 1fr;
   text-align: center;
 }
+
+
+.reccomended_articles_container {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  margin-top: 100px;
+}
+
+.more-in {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  grid-column-gap:10px;
+}
+
+
+.more-images {
+  grid-column: 1;
+}
+
+.recommended-text {
+  grid-column: 2;
+}
+
+.more-article-images {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+
+.more-art-img {
+  grid-gap: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  word-break: break-all;
+
+
+
+
+}
+
+
+.more-art-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  cursor: pointer;
+
+}
+
+.more-art-img p {
+    cursor: pointer;
+}
