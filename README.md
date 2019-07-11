@@ -14,4 +14,4 @@ Used:
 - Emir Vatric -- https://github.com/EmirVatric
 
 **Website**
-https://rawcdn.githack.com/evaveskova/NY_Times_Clone/98957458c998b103667774c1cf35061e6a147c7e/index.html
+https://rawcdn.githack.com/evaveskova/NY_Times_Clone/4c8c0f291a13ebd3c006dc662cf57afcdf3e3b4c/index.html
