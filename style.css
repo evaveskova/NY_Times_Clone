@@ -141,6 +141,7 @@ h4 > a {
   height: 800px;
   width: 800px;
   margin: 0 auto;
+  grid-gap: 10px;
 }
 
 .image-with-text > img {
@@ -152,6 +153,7 @@ h4 > a {
   object-fit: contain;
   z-index: -1;
   justify-self: center;
+
 }
 
 .first {
@@ -243,7 +245,10 @@ h4 > a {
 
 .more-images {
   grid-column: 1;
+
 }
+
+
 .recomended-links {
   grid-column: 2;
   grid-row: 1 / span 2;
@@ -259,11 +264,18 @@ h4 > a {
   grid-gap: 10px;
   box-sizing: border-box;
   margin: 0;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 17px;
+}
+
+.light {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 17px;
 }
 
 .more-art-img img {
   width: 100%;
-  height: 100%;
+  height: 200px;
   display: block;
   object-fit: contain;
   cursor: pointer;
@@ -289,4 +301,104 @@ h4 > a {
 
 .more-images p {
   margin-bottom: 0;
+}
+
+
+
+.footer-container {
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0;
+
+
+}
+
+.footer-sections a {
+  text-decoration: none;
+  style: none;
+  color: #121212;
+}
+
+.footer-heading-container {
+
+}
+
+.sections-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-top: 2px solid gray;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 500;
+  line-height: 0.8;
+  font-size: 13px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+
+}
+
+.footer-sections {
+  grid-row: 2;
+
+}
+
+.times-footer {
+  grid-column: 1 / span 2;
+  margin-top: 5px;
+}
+
+.go-home {
+  grid-column: 6;
+  justify-content: right;
+  align-self: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 11px;
+
+}
+
+.go-home a {
+    color: #121212;
+    text-decoration: none;
+    style: none;
+}
+
+#footer-subscribe {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+
+.subscribe-bold {
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.subscribe-small {
+  font-size: 11px;
+  line-height: 1;
+}
+
+
+.css-r5ic95 {
+    display: inline-block;
+   height: 13px;
+   width: 13px;
+   margin-right: 7px;
+   vertical-align: middle;
+ }
+
+.terms-footer a {
+  text-decoration: none;
+  font-size: 11px;
+  color: rgb(153, 153, 153);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  display: inline;
+  margin-right: 10px;
+}
+
+.terms-footer {
+  width: 900px;
+  margin: 0 auto;
+  padding: 5px;
 }
