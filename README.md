@@ -1,7 +1,6 @@
-**Microverse New York Times Clone Project - Positioning and Floating Elements**
+**Microverse Older Version Of Apple Clone Project - Building with Backgrounds and Gradients**
 
-This project involved creating a clone of a New York Times page. It included a navar, a sidebar, a footer with links, 2 sections of reccomended articles, an embedded video, and several images.
-This project utilized the use of CSS grids.
+This project involved creating a clone of an old version of the landing page for apple.com. Its main features are a navbar with a gradient color and images in the background of the page.
 
 Used:
 
@@ -11,7 +10,6 @@ Used:
 **Authors**
 
 - Eva Aleksandra Veskova Jackson -- https://github.com/evaveskova/
-- Emir Vatric -- https://github.com/EmirVatric
 
 **Website**
-https://rawcdn.githack.com/evaveskova/NY_Times_Clone/4c8c0f291a13ebd3c006dc662cf57afcdf3e3b4c/index.html
+https://rawcdn.githack.com/evaveskova/Apple_Clone/535f76c442bfd95b57cadd3ed1c6cfa6c1edf969/index.html
