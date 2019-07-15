@@ -4,17 +4,26 @@
   position: fixed;
   margin: 0 auto;
   top: 0;
-  display: grid;
-  max-width: 1600px;
-  grid-template-columns: auto auto auto 1fr auto auto;
-  grid-gap: 0.5em;
-  justify-items: center;
-  align-items: center;
+  display: flex;
+  width: 100;
+  justify-content: space-between;
+
+
   padding: 0 1em;
   padding-top: 0.3em;
   background: white;
   border-bottom: 1px solid rgb(204, 204, 204);
-  background: white;
+
+}
+
+.wraper {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item img {
+  height: 23px;
+  padding-right: 10px;
 }
 
 .nav-link {
@@ -63,7 +72,7 @@ a {
 
 .main-img-grid {
   display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-columns: 0.3fr 2fr 0.3fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -165,78 +174,86 @@ h4>a {
   color: #353434;
 }
 
+figure {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: gray;
+  font-size: 13px;
+}
+
 .image-with-text {
+  padding-top: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 800px;
-  width: 800px;
+  height: 110vh;
   margin: 0 auto;
   grid-gap: 10px;
 }
 
 .image-with-text>img {
   grid-column: 1 / span 4;
-  grid-row: 1 / span 17;
+  grid-row: 1 / span 16;
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: contain;
+  object-fit: fill;
   z-index: -1;
   justify-self: center;
 }
 
 .first {
   grid-column: 1;
-  grid-row: 6 / span 5;
+  grid-row: 5 / span 2;
   font-size: 13px;
   margin: 0;
 }
 
 .second {
   grid-column: 2;
-  grid-row: 6 / span 5;
+  grid-row: 5 / span 2;
   font-size: 13px;
   margin: 0;
 }
 
 .third {
   grid-column: 3;
-  grid-row: 6 / span 5;
+  grid-row: 5 / span 2;
   font-size: 13px;
   margin: 0;
 }
 
 .fourth {
   grid-column: 4 / span 1;
-  grid-row: 6 / span 5;
+  grid-row: 5 / span 2;
   font-size: 13px;
   margin: 0;
 }
 
 .fifth {
   grid-column: 1;
-  grid-row: 14 / span 5;
+  grid-row: 13 / span 2;
   font-size: 13px;
   margin: 0;
 }
 
 .sixth {
   grid-column: 2 / span 1;
-  grid-row: 14 / span 5;
+  grid-row: 13 / span 2;
   font-size: 13px;
   margin: 0;
 }
 
 .seventh {
   grid-column: 3 / span 1;
-  grid-row: 14 / span 5;
+  grid-row: 13 / span 2;
   font-size: 13px;
   margin: 0;
 }
 
 .eight {
   grid-column: 4 / span 1;
-  grid-row: 14 / span 5;
+  grid-row: 13 / span 2;
   font-size: 13px;
   margin: 0;
 }
@@ -340,7 +357,6 @@ h4>a {
   color: #121212;
 }
 
-.footer-heading-container {}
 
 .sections-container {
   display: grid;
@@ -444,4 +460,13 @@ h4>a {
 .you-video {
   width: 100%;
   height: 400px;
+}
+
+.recomended-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.fig-caption {
+  float: right;
 }
